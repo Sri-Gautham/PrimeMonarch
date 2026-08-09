@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PrimeMonarch — Your Personal Health & Fitness Coach</title>
+  <meta name="description" content="PrimeMonarch helps you track nutrition, workouts, and progress with personalised goals — all on your iPhone.">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --orange:      #c67139;
+      --orange-dark: #8c491a;
+      --cream:       #f5ead8;
+      --cream-dark:  #e8d5b7;
+      --text:        #1a0f06;
+      --text-muted:  #7a5a3a;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--cream);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    /* ── Hero ── */
+    .hero {
+      background: linear-gradient(135deg, var(--orange) 0%, var(--orange-dark) 100%);
+      color: var(--cream);
+      text-align: center;
+      padding: 80px 24px 100px;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at 30% 20%, rgba(255,255,255,0.12) 0%, transparent 60%);
+      pointer-events: none;
+    }
+
+    .app-icon {
+      width: 120px;
+      height: 120px;
+      border-radius: 27px;
+      background: linear-gradient(135deg, var(--orange) 0%, var(--orange-dark) 100%);
+      border: 3px solid rgba(255,255,255,0.3);
+      margin: 0 auto 28px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+    }
+
+    /* SVG crown mark (inline, matching the app icon geometry) */
+    .crown-svg { width: 72px; height: 72px; }
+
+    .hero h1 {
+      font-size: clamp(2.2rem, 5vw, 3.2rem);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 16px;
+    }
+    .hero p {
+      font-size: 1.15rem;
+      opacity: 0.88;
+      max-width: 520px;
+      margin: 0 auto 36px;
+    }
+
+    .badge-row {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .app-store-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: var(--cream);
+      color: var(--orange-dark);
+      padding: 14px 28px;
+      border-radius: 14px;
+      font-size: 1rem;
+      font-weight: 600;
+      text-decoration: none;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .app-store-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.22); }
+    .app-store-btn svg { flex-shrink: 0; }
+
+    /* ── Features ── */
+    .features {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 72px 24px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 28px;
+    }
+
+    .feature-card {
+      background: #fff;
+      border-radius: 20px;
+      padding: 32px 28px;
+      box-shadow: 0 2px 12px rgba(140,73,26,0.08);
+    }
+    .feature-icon {
+      font-size: 2rem;
+      margin-bottom: 14px;
+      display: block;
+    }
+    .feature-card h3 {
+      font-size: 1.1rem;
+      font-weight: 650;
+      margin-bottom: 8px;
+      color: var(--orange-dark);
+    }
+    .feature-card p {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+    }
+
+    /* ── Section divider ── */
+    .section-label {
+      text-align: center;
+      padding: 16px 24px 8px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+
+    /* ── Privacy strip ── */
+    .privacy-strip {
+      background: linear-gradient(135deg, var(--orange-dark) 0%, #5a2e0a 100%);
+      color: var(--cream);
+      text-align: center;
+      padding: 56px 24px;
+    }
+    .privacy-strip h2 { font-size: 1.6rem; margin-bottom: 10px; }
+    .privacy-strip p  { opacity: 0.85; max-width: 560px; margin: 0 auto 24px; font-size: 0.95rem; }
+
+    /* ── Footer ── */
+    footer {
+      background: var(--cream-dark);
+      text-align: center;
+      padding: 28px 24px;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+    footer a { color: var(--orange-dark); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+    .footer-links { display: flex; gap: 20px; justify-content: center; margin-bottom: 12px; flex-wrap: wrap; }
+  </style>
+</head>
+<body>
+
+  <!-- ── Hero ── -->
+  <section class="hero">
+    <div class="app-icon">
+      <!-- Inline crown + arc SVG matching the app icon mark -->
+      <svg class="crown-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <!-- Activity arc -->
+        <path d="M 18 68 A 38 38 0 1 1 82 68" stroke="rgba(245,234,216,0.85)" stroke-width="7" stroke-linecap="round" fill="none"/>
+        <!-- Arc leading dot -->
+        <circle cx="18" cy="68" r="4.5" fill="rgba(245,234,216,0.85)"/>
+        <!-- Crown fill -->
+        <polygon points="20,72 20,60 28,33 36,64 50,23 64,64 72,33 80,60 80,72"
+                 fill="#f5ead8"/>
+        <!-- Gem dots -->
+        <circle cx="35" cy="67" r="2.5" fill="#c67139"/>
+        <circle cx="50" cy="67" r="3"   fill="#c67139"/>
+        <circle cx="65" cy="67" r="2.5" fill="#c67139"/>
+      </svg>
+    </div>
+
+    <h1>PrimeMonarch</h1>
+    <p>Your personalised health and fitness coach. Track nutrition, crush workouts, and watch your progress — all on iPhone.</p>
+
+    <div class="badge-row">
+      <!-- Replace href with your App Store URL once live -->
+      <a class="app-store-btn" href="#" aria-label="Download on the App Store">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M18.71 19.5C17.88 20.74 17 21.95 15.66 21.97C14.32 22 13.89 21.18 12.37 21.18C10.84 21.18 10.37 21.95 9.1 22C7.78 22.05 6.8 20.68 5.96 19.47C4.25 17 2.94 12.45 4.7 9.39C5.57 7.87 7.13 6.91 8.82 6.88C10.1 6.86 11.32 7.75 12.11 7.75C12.89 7.75 14.37 6.68 15.92 6.84C16.57 6.87 18.39 7.1 19.56 8.82C19.47 8.88 17.39 10.1 17.41 12.63C17.44 15.65 20.06 16.66 20.09 16.67C20.06 16.74 19.67 18.11 18.71 19.5ZM13 3.5C13.73 2.67 14.94 2.04 15.94 2C16.07 3.17 15.6 4.35 14.9 5.19C14.21 6.04 13.07 6.7 11.95 6.61C11.8 5.46 12.36 4.26 13 3.5Z" fill="currentColor"/>
+        </svg>
+        Download on the App Store
+      </a>
+    </div>
+  </section>
+
+  <!-- ── Features ── -->
+  <div class="section-label">Everything you need</div>
+  <section class="features">
+    <div class="feature-card">
+      <span class="feature-icon">🥗</span>
+      <h3>Smart Nutrition Tracking</h3>
+      <p>Log meals from a curated food database or create custom entries. Get personalised calorie and macro targets based on your goals and metabolism.</p>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">💪</span>
+      <h3>Workout Logging</h3>
+      <p>Track sets, reps, and weight for every exercise. Live workout mode keeps you focused, and your history shows exactly how far you've come.</p>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">📈</span>
+      <h3>Progress & Body Metrics</h3>
+      <p>Log weight, body measurements, and progress photos. Visual charts make your journey undeniable, and streaks keep you accountable.</p>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">🍏</span>
+      <h3>Apple Health Integration</h3>
+      <p>Syncs with Apple Health to incorporate steps, active energy, and workouts automatically — no double entry.</p>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">🎯</span>
+      <h3>Adaptive Goal Engine</h3>
+      <p>Your targets adapt as your fitness level changes. The app learns your patterns and adjusts recommendations so you keep progressing.</p>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">🏆</span>
+      <h3>Achievements & XP</h3>
+      <p>Earn badges and experience points as you hit milestones — from your first logged meal to 100-day streaks and beyond.</p>
+    </div>
+  </section>
+
+  <!-- ── Privacy strip ── -->
+  <section class="privacy-strip">
+    <h2>Your data stays yours</h2>
+    <p>PrimeMonarch never sells your data or uses it for advertising. Everything is stored locally on your device first — cloud sync is only used to restore your data after a reinstall.</p>
+  </section>
+
+  <!-- ── Footer ── -->
+  <footer>
+    <div class="footer-links">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Service</a>
+      <a href="mailto:gauthamsubbu1@hotmail.com">Support</a>
+    </div>
+    <p>&copy; 2026 Sri Gautham Subramani. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
