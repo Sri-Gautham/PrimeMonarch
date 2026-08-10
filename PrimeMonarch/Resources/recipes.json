@@ -1,0 +1,1459 @@
+[
+  {
+    "id": "bk_overnight_oats",
+    "name": "Overnight Oats with Banana",
+    "category": "breakfast",
+    "calories": 380,
+    "proteinGrams": 10,
+    "carbohydrateGrams": 65,
+    "fatGrams": 8,
+    "servings": 1,
+    "prepMinutes": 5,
+    "cookMinutes": 0,
+    "dietaryStyleTags": ["vegetarian", "vegan", "dairy_free"],
+    "ingredients": [
+      { "id": "bk_oo_0", "name": "Rolled oats",    "amount": 80,  "unit": "g",     "groceryCategory": "grains"  },
+      { "id": "bk_oo_1", "name": "Almond milk",    "amount": 200, "unit": "ml",    "groceryCategory": "pantry"  },
+      { "id": "bk_oo_2", "name": "Banana",         "amount": 100, "unit": "g",     "groceryCategory": "produce" },
+      { "id": "bk_oo_3", "name": "Chia seeds",     "amount": 10,  "unit": "g",     "groceryCategory": "pantry"  },
+      { "id": "bk_oo_4", "name": "Maple syrup",    "amount": 10,  "unit": "ml",    "groceryCategory": "pantry"  }
+    ],
+    "instructions": [
+      "Combine oats, almond milk, and chia seeds in a jar and stir well.",
+      "Refrigerate overnight (at least 6 hours).",
+      "Top with sliced banana and a drizzle of maple syrup before serving."
+    ]
+  },
+  {
+    "id": "bk_scrambled_eggs_toast",
+    "name": "Scrambled Eggs on Toast",
+    "category": "breakfast",
+    "calories": 340,
+    "proteinGrams": 22,
+    "carbohydrateGrams": 30,
+    "fatGrams": 14,
+    "servings": 1,
+    "prepMinutes": 3,
+    "cookMinutes": 5,
+    "dietaryStyleTags": ["vegetarian"],
+    "ingredients": [
+      { "id": "bk_set_0", "name": "Eggs",               "amount": 3,  "unit": "piece", "groceryCategory": "protein" },
+      { "id": "bk_set_1", "name": "Whole grain bread",  "amount": 2,  "unit": "slice", "groceryCategory": "grains"  },
+      { "id": "bk_set_2", "name": "Butter",             "amount": 10, "unit": "g",     "groceryCategory": "dairy"   },
+      { "id": "bk_set_3", "name": "Semi-skimmed milk",  "amount": 30, "unit": "ml",    "groceryCategory": "dairy"   }
+    ],
+    "instructions": [
+      "Crack and whisk eggs with a splash of milk, salt, and pepper.",
+      "Melt butter in a pan over low heat, add eggs, and stir gently until just set.",
+      "Serve on toasted whole grain bread."
+    ]
+  },
+  {
+    "id": "bk_greek_yogurt_berries",
+    "name": "Greek Yogurt with Berries & Walnuts",
+    "category": "breakfast",
+    "calories": 210,
+    "proteinGrams": 16,
+    "carbohydrateGrams": 20,
+    "fatGrams": 7,
+    "servings": 1,
+    "prepMinutes": 3,
+    "cookMinutes": 0,
+    "dietaryStyleTags": ["vegetarian", "gluten_free"],
+    "ingredients": [
+      { "id": "bk_gyb_0", "name": "Greek yogurt",    "amount": 200, "unit": "g",  "groceryCategory": "dairy"   },
+      { "id": "bk_gyb_1", "name": "Mixed berries",   "amount": 100, "unit": "g",  "groceryCategory": "produce" },
+      { "id": "bk_gyb_2", "name": "Walnuts",         "amount": 20,  "unit": "g",  "groceryCategory": "pantry"  },
+      { "id": "bk_gyb_3", "name": "Honey",           "amount": 10,  "unit": "ml", "groceryCategory": "pantry"  }
+    ],
+    "instructions": [
+      "Spoon Greek yogurt into a bowl.",
+      "Top with mixed berries, roughly crushed walnuts, and a drizzle of honey."
+    ]
+  },
+  {
+    "id": "bk_avo_egg_toast",
+    "name": "Avocado & Poached Egg Toast",
+    "category": "breakfast",
+    "calories": 380,
+    "proteinGrams": 18,
+    "carbohydrateGrams": 32,
+    "fatGrams": 20,
+    "servings": 1,
+    "prepMinutes": 5,
+    "cookMinutes": 5,
+    "dietaryStyleTags": ["vegetarian"],
+    "ingredients": [
+      { "id": "bk_aet_0", "name": "Sourdough bread", "amount": 2,   "unit": "slice", "groceryCategory": "grains"  },
+      { "id": "bk_aet_1", "name": "Avocado",         "amount": 100, "unit": "g",     "groceryCategory": "produce" },
+      { "id": "bk_aet_2", "name": "Eggs",            "amount": 2,   "unit": "piece", "groceryCategory": "protein" },
+      { "id": "bk_aet_3", "name": "Lemon juice",     "amount": 5,   "unit": "ml",    "groceryCategory": "produce" }
+    ],
+    "instructions": [
+      "Toast sourdough. Mash avocado with lemon juice, salt, and pepper and spread on toast.",
+      "Poach eggs in simmering water for 3 minutes, then place on top."
+    ]
+  },
+  {
+    "id": "bk_protein_smoothie",
+    "name": "Protein Berry Smoothie",
+    "category": "breakfast",
+    "calories": 320,
+    "proteinGrams": 28,
+    "carbohydrateGrams": 35,
+    "fatGrams": 6,
+    "servings": 1,
+    "prepMinutes": 5,
+    "cookMinutes": 0,
+    "dietaryStyleTags": ["vegetarian", "gluten_free"],
+    "ingredients": [
+      { "id": "bk_ps_0", "name": "Frozen mixed berries", "amount": 150, "unit": "g",  "groceryCategory": "produce" },
+      { "id": "bk_ps_1", "name": "Greek yogurt",         "amount": 150, "unit": "g",  "groceryCategory": "dairy"   },
+      { "id": "bk_ps_2", "name": "Protein powder",       "amount": 30,  "unit": "g",  "groceryCategory": "pantry"  },
+      { "id": "bk_ps_3", "name": "Almond milk",          "amount": 200, "unit": "ml", "groceryCategory": "pantry"  }
+    ],
+    "instructions": [
+      "Add all ingredients to a blender and blitz until smooth.",
+      "Add extra almond milk for a thinner consistency if preferred."
+    ]
+  },
+  {
+    "id": "bk_oat_pancakes",
+    "name": "Oat & Banana Pancakes",
+    "category": "breakfast",
+    "calories": 390,
+    "proteinGrams": 16,
+    "carbohydrateGrams": 68,
+    "fatGrams": 8,
+    "servings": 1,
+    "prepMinutes": 5,
+    "cookMinutes": 10,
+    "dietaryStyleTags": ["vegetarian"],
+    "ingredients": [
+      { "id": "bk_op_0", "name": "Rolled oats",    "amount": 80,  "unit": "g",     "groceryCategory": "grains"  },
+      { "id": "bk_op_1", "name": "Banana",         "amount": 200, "unit": "g",     "groceryCategory": "produce" },
+      { "id": "bk_op_2", "name": "Eggs",           "amount": 2,   "unit": "piece", "groceryCategory": "protein" },
+      { "id": "bk_op_3", "name": "Semi-skimmed milk", "amount": 50, "unit": "ml",  "groceryCategory": "dairy"   }
+    ],
+    "instructions": [
+      "Blend oats, banana, eggs, and milk into a smooth batter.",
+      "Cook small pancakes in a non-stick pan over medium heat, about 2 min each side.",
+      "Serve with fresh fruit or a drizzle of honey."
+    ]
+  },
+  {
+    "id": "bk_poached_eggs_spinach",
+    "name": "Poached Eggs with Sautéed Spinach",
+    "category": "breakfast",
+    "calories": 250,
+    "proteinGrams": 16,
+    "carbohydrateGrams": 8,
+    "fatGrams": 16,
+    "servings": 1,
+    "prepMinutes": 5,
+    "cookMinutes": 8,
+    "dietaryStyleTags": ["vegetarian", "gluten_free"],
+    "ingredients": [
+      { "id": "bk_pes_0", "name": "Eggs",              "amount": 2,   "unit": "piece", "groceryCategory": "protein" },
+      { "id": "bk_pes_1", "name": "Baby spinach",      "amount": 80,  "unit": "g",     "groceryCategory": "produce" },
+      { "id": "bk_pes_2", "name": "Cherry tomatoes",   "amount": 100, "unit": "g",     "groceryCategory": "produce" },
+      { "id": "bk_pes_3", "name": "Olive oil",         "amount": 10,  "unit": "ml",    "groceryCategory": "pantry"  },
+      { "id": "bk_pes_4", "name": "Garlic",            "amount": 5,   "unit": "g",     "groceryCategory": "produce" }
+    ],
+    "instructions": [
+      "Sauté garlic and cherry tomatoes in olive oil until softened, then wilt the spinach.",
+      "Poach eggs in simmering water for 3 minutes and serve on top of the spinach."
+    ]
+  },
+  {
+    "id": "bk_muesli_milk",
+    "name": "Muesli with Milk & Banana",
+    "category": "breakfast",
+    "calories": 350,
+    "proteinGrams": 12,
+    "carbohydrateGrams": 62,
+    "fatGrams": 6,
+    "servings": 1,
+    "prepMinutes": 2,
+    "cookMinutes": 0,
+    "dietaryStyleTags": ["vegetarian"],
+    "ingredients": [
+      { "id": "bk_mm_0", "name": "Muesli",              "amount": 80,  "unit": "g",  "groceryCategory": "grains" },
+      { "id": "bk_mm_1", "name": "Semi-skimmed milk",   "amount": 200, "unit": "ml", "groceryCategory": "dairy"  },
+      { "id": "bk_mm_2", "name": "Banana",              "amount": 100, "unit": "g",  "groceryCategory": "produce"}
+    ],
+    "instructions": [
+      "Pour muesli into a bowl and add milk.",
+      "Slice banana on top and serve immediately, or soak overnight for a softer texture."
+    ]
+  },
+
+  {
+    "id": "lu_chicken_quinoa_bowl",
+    "name": "Chicken & Quinoa Power Bowl",
+    "category": "lunch",
+    "calories": 480,
+    "proteinGrams": 46,
+    "carbohydrateGrams": 36,
+    "fatGrams": 16,
+    "servings": 1,
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "dietaryStyleTags": ["gluten_free", "dairy_free"],
+    "ingredients": [
+      { "id": "lu_cqb_0", "name": "Chicken breast",   "amount": 150, "unit": "g",  "groceryCategory": "protein" },
+      { "id": "lu_cqb_1", "name": "Cooked quinoa",    "amount": 150, "unit": "g",  "groceryCategory": "grains"  },
+      { "id": "lu_cqb_2", "name": "Cherry tomatoes",  "amount": 100, "unit": "g",  "groceryCategory": "produce" },
+      { "id": "lu_cqb_3", "name": "Cucumber",         "amount": 80,  "unit": "g",  "groceryCategory": "produce" },
+      { "id": "lu_cqb_4", "name": "Olive oil",        "amount": 15,  "unit": "ml", "groceryCategory": "pantry"  }
+    ],
+    "instructions": [
+      "Season and grill chicken breast for 6 min each side, then slice.",
+      "Assemble quinoa, cucumber, and tomatoes in a bowl.",
+      "Top with sliced chicken and drizzle with olive oil, lemon, and seasoning."
+    ]
+  },
+  {
+    "id": "lu_lentil_soup",
+    "name": "Red Lentil & Cumin Soup",
+    "category": "lunch",
+    "calories": 280,
+    "proteinGrams": 18,
+    "carbohydrateGrams": 48,
+    "fatGrams": 2,
+    "servings": 1,
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "dietaryStyleTags": ["vegetarian", "vegan", "gluten_free", "dairy_free"],
+    "ingredients": [
+      { "id": "lu_ls_0", "name": "Red lentils",       "amount": 100, "unit": "g",  "groceryCategory": "grains"  },
+      { "id": "lu_ls_1", "name": "Vegetable stock",   "amount": 400, "unit": "ml", "groceryCategory": "pantry"  },
+      { "id": "lu_ls_2", "name": "Onion",             "amount": 80,  "unit": "g",  "groceryCategory": "produce" },
+      { "id": "lu_ls_3", "name": "Garlic",            "amount": 10,  "unit": "g",  "groceryCategory": "produce" },
+      { "id": "lu_ls_4", "name": "Ground cumin",      "amount": 5,   "unit": "g",  "groceryCategory": "pantry"  }
+    ],
+    "instructions": [
+      "Soften onion and garlic in a pan, then add cumin and cook for 1 minute.",
+      "Add lentils and stock, bring to a boil, then simmer for 20 minutes until thick.",
+      "Blend partially or fully to your preferred consistency."
+    ]
+  },
+  {
+    "id": "lu_tuna_wrap",
+    "name": "Tuna & Avocado Whole-Grain Wrap",
+    "category": "lunch",
+    "calories": 420,
+    "proteinGrams": 32,
+    "carbohydrateGrams": 38,
+    "fatGrams": 14,
+    "servings": 1,
+    "prepMinutes": 8,
+    "cookMinutes": 0,
+    "dietaryStyleTags": ["dairy_free"],
+    "ingredients": [
+      { "id": "lu_tw_0", "name": "Wholegrain tortilla", "amount": 1,   "unit": "piece", "groceryCategory": "grains"  },
+      { "id": "lu_tw_1", "name": "Tuna in water",       "amount": 120, "unit": "g",     "groceryCategory": "protein" },
+      { "id": "lu_tw_2", "name": "Avocado",             "amount": 60,  "unit": "g",     "groceryCategory": "produce" },
+      { "id": "lu_tw_3", "name": "Romaine lettuce",     "amount": 40,  "unit": "g",     "groceryCategory": "produce" },
+      { "id": "lu_tw_4", "name": "Lemon juice",         "amount": 10,  "unit": "ml",    "groceryCategory": "produce" }
+    ],
+    "instructions": [
+      "Drain tuna and mix with lemon juice, salt, and pepper.",
+      "Spread mashed avocado on the tortilla, add tuna and lettuce, then wrap tightly."
+    ]
+  },
+  {
+    "id": "lu_roasted_veg_feta_salad",
+    "name": "Roasted Vegetable & Feta Salad",
+    "category": "lunch",
+    "calories": 310,
+    "proteinGrams": 12,
+    "carbohydrateGrams": 18,
+    "fatGrams": 22,
+    "servings": 1,
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "dietaryStyleTags": ["vegetarian", "gluten_free"],
+    "ingredients": [
+      { "id": "lu_rvf_0", "name": "Mixed vegetables",    "amount": 200, "unit": "g",  "groceryCategory": "produce"    },
+      { "id": "lu_rvf_1", "name": "Feta cheese",         "amount": 60,  "unit": "g",  "groceryCategory": "dairy"      },
+      { "id": "lu_rvf_2", "name": "Olive oil",           "amount": 15,  "unit": "ml", "groceryCategory": "pantry"     },
+      { "id": "lu_rvf_3", "name": "Balsamic vinegar",    "amount": 15,  "unit": "ml", "groceryCategory": "condiments" },
+      { "id": "lu_rvf_4", "name": "Rocket leaves",       "amount": 40,  "unit": "g",  "groceryCategory": "produce"    }
+    ],
+    "instructions": [
+      "Toss vegetables in olive oil, season, and roast at 200°C for 20 minutes.",
+      "Let cool slightly, then toss with rocket, crumbled feta, and balsamic."
+    ]
+  },
+  {
+    "id": "lu_turkey_sandwich",
+    "name": "Turkey & Avocado Sandwich",
+    "category": "lunch",
+    "calories": 410,
+    "proteinGrams": 30,
+    "carbohydrateGrams": 42,
+    "fatGrams": 14,
+    "servings": 1,
+    "prepMinutes": 5,
+    "cookMinutes": 0,
+    "dietaryStyleTags": ["dairy_free"],
+    "ingredients": [
+      { "id": "lu_ts_0", "name": "Wholegrain bread",  "amount": 2,   "unit": "slice", "groceryCategory": "grains"     },
+      { "id": "lu_ts_1", "name": "Turkey breast",     "amount": 100, "unit": "g",     "groceryCategory": "protein"    },
+      { "id": "lu_ts_2", "name": "Avocado",           "amount": 60,  "unit": "g",     "groceryCategory": "produce"    },
+      { "id": "lu_ts_3", "name": "Romaine lettuce",   "amount": 30,  "unit": "g",     "groceryCategory": "produce"    },
+      { "id": "lu_ts_4", "name": "Dijon mustard",     "amount": 10,  "unit": "g",     "groceryCategory": "condiments" }
+    ],
+    "instructions": [
+      "Spread Dijon mustard on bread slices.",
+      "Layer turkey, mashed avocado, and lettuce, then close the sandwich."
+    ]
+  },
+  {
+    "id": "lu_tofu_noodle_bowl",
+    "name": "Sesame Tofu Noodle Bowl",
+    "category": "lunch",
+    "calories": 440,
+    "proteinGrams": 20,
+    "carbohydrateGrams": 58,
+    "fatGrams": 14,
+    "servings": 1,
+    "prepMinutes": 10,
+    "cookMinutes": 10,
+    "dietaryStyleTags": ["vegetarian", "vegan", "dairy_free"],
+    "ingredients": [
+      { "id": "lu_tnb_0", "name": "Firm tofu",      "amount": 150, "unit": "g",  "groceryCategory": "protein"    },
+      { "id": "lu_tnb_1", "name": "Egg noodles",    "amount": 80,  "unit": "g",  "groceryCategory": "grains"     },
+      { "id": "lu_tnb_2", "name": "Bell pepper",    "amount": 100, "unit": "g",  "groceryCategory": "produce"    },
+      { "id": "lu_tnb_3", "name": "Soy sauce",      "amount": 20,  "unit": "ml", "groceryCategory": "condiments" },
+      { "id": "lu_tnb_4", "name": "Sesame oil",     "amount": 10,  "unit": "ml", "groceryCategory": "pantry"     }
+    ],
+    "instructions": [
+      "Press and cube tofu, then pan-fry until golden on all sides.",
+      "Cook noodles per packet instructions. Stir-fry peppers, add noodles and soy sauce.",
+      "Top with tofu and drizzle with sesame oil."
+    ]
+  },
+  {
+    "id": "lu_chicken_veg_soup",
+    "name": "Chicken & Vegetable Soup",
+    "category": "lunch",
+    "calories": 240,
+    "proteinGrams": 28,
+    "carbohydrateGrams": 18,
+    "fatGrams": 6,
+    "servings": 1,
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "dietaryStyleTags": ["gluten_free", "dairy_free"],
+    "ingredients": [
+      { "id": "lu_cvs_0", "name": "Chicken breast",   "amount": 120, "unit": "g",  "groceryCategory": "protein" },
+      { "id": "lu_cvs_1", "name": "Mixed vegetables", "amount": 200, "unit": "g",  "groceryCategory": "produce" },
+      { "id": "lu_cvs_2", "name": "Chicken stock",    "amount": 400, "unit": "ml", "groceryCategory": "pantry"  },
+      { "id": "lu_cvs_3", "name": "Garlic",           "amount": 10,  "unit": "g",  "groceryCategory": "produce" },
+      { "id": "lu_cvs_4", "name": "Olive oil",        "amount": 10,  "unit": "ml", "groceryCategory": "pantry"  }
+    ],
+    "instructions": [
+      "Sauté garlic in olive oil, then add diced chicken and brown.",
+      "Add vegetables and stock, bring to a boil, then simmer 15 minutes."
+    ]
+  },
+  {
+    "id": "lu_quinoa_black_bean",
+    "name": "Quinoa & Black Bean Bowl",
+    "category": "lunch",
+    "calories": 380,
+    "proteinGrams": 18,
+    "carbohydrateGrams": 66,
+    "fatGrams": 6,
+    "servings": 1,
+    "prepMinutes": 5,
+    "cookMinutes": 15,
+    "dietaryStyleTags": ["vegetarian", "vegan", "gluten_free", "dairy_free"],
+    "ingredients": [
+      { "id": "lu_qbb_0", "name": "Cooked quinoa",  "amount": 150, "unit": "g",  "groceryCategory": "grains"  },
+      { "id": "lu_qbb_1", "name": "Black beans",    "amount": 120, "unit": "g",  "groceryCategory": "protein" },
+      { "id": "lu_qbb_2", "name": "Corn",           "amount": 80,  "unit": "g",  "groceryCategory": "produce" },
+      { "id": "lu_qbb_3", "name": "Lime juice",     "amount": 15,  "unit": "ml", "groceryCategory": "produce" },
+      { "id": "lu_qbb_4", "name": "Ground cumin",   "amount": 3,   "unit": "g",  "groceryCategory": "pantry"  }
+    ],
+    "instructions": [
+      "Rinse and drain black beans, mix with corn, cumin, salt, and lime juice.",
+      "Serve over cooked quinoa and garnish with fresh coriander if available."
+    ]
+  },
+
+  {
+    "id": "di_salmon_roasted_veg",
+    "name": "Baked Salmon with Roasted Vegetables",
+    "category": "dinner",
+    "calories": 420,
+    "proteinGrams": 40,
+    "carbohydrateGrams": 12,
+    "fatGrams": 24,
+    "servings": 1,
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "dietaryStyleTags": ["gluten_free", "dairy_free"],
+    "ingredients": [
+      { "id": "di_srv_0", "name": "Salmon fillet",    "amount": 180, "unit": "g",  "groceryCategory": "protein" },
+      { "id": "di_srv_1", "name": "Mixed vegetables", "amount": 200, "unit": "g",  "groceryCategory": "produce" },
+      { "id": "di_srv_2", "name": "Olive oil",        "amount": 15,  "unit": "ml", "groceryCategory": "pantry"  },
+      { "id": "di_srv_3", "name": "Lemon",            "amount": 30,  "unit": "g",  "groceryCategory": "produce" },
+      { "id": "di_srv_4", "name": "Garlic",           "amount": 10,  "unit": "g",  "groceryCategory": "produce" }
+    ],
+    "instructions": [
+      "Toss vegetables in olive oil and roast at 200°C for 10 minutes.",
+      "Place salmon on the tray, season with garlic, lemon zest, and salt.",
+      "Roast for a further 12–14 minutes until salmon is cooked through."
+    ]
+  },
+  {
+    "id": "di_chicken_broccoli_stirfry",
+    "name": "Chicken & Broccoli Stir-fry with Rice",
+    "category": "dinner",
+    "calories": 460,
+    "proteinGrams": 42,
+    "carbohydrateGrams": 48,
+    "fatGrams": 10,
+    "servings": 1,
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "dietaryStyleTags": ["gluten_free", "dairy_free"],
+    "ingredients": [
+      { "id": "di_cbs_0", "name": "Chicken breast",  "amount": 160, "unit": "g",  "groceryCategory": "protein"    },
+      { "id": "di_cbs_1", "name": "Broccoli",        "amount": 200, "unit": "g",  "groceryCategory": "produce"    },
+      { "id": "di_cbs_2", "name": "Cooked brown rice","amount": 150, "unit": "g",  "groceryCategory": "grains"     },
+      { "id": "di_cbs_3", "name": "Soy sauce",       "amount": 20,  "unit": "ml", "groceryCategory": "condiments" },
+      { "id": "di_cbs_4", "name": "Fresh ginger",    "amount": 10,  "unit": "g",  "groceryCategory": "produce"    }
+    ],
+    "instructions": [
+      "Slice chicken and cook in a hot wok with grated ginger until golden.",
+      "Add broccoli florets and stir-fry 3–4 minutes, then splash in soy sauce.",
+      "Serve over cooked brown rice."
+    ]
+  },
+  {
+    "id": "di_veg_coconut_curry",
+    "name": "Vegetable Coconut Curry",
+    "category": "dinner",
+    "calories": 480,
+    "proteinGrams": 16,
+    "carbohydrateGrams": 72,
+    "fatGrams": 16,
+    "servings": 1,
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "dietaryStyleTags": ["vegetarian", "vegan", "gluten_free", "dairy_free"],
+    "ingredients": [
+      { "id": "di_vcc_0", "name": "Chickpeas",        "amount": 150, "unit": "g",  "groceryCategory": "protein" },
+      { "id": "di_vcc_1", "name": "Coconut milk",     "amount": 200, "unit": "ml", "groceryCategory": "pantry"  },
+      { "id": "di_vcc_2", "name": "Cooked basmati rice","amount":150, "unit": "g",  "groceryCategory": "grains"  },
+      { "id": "di_vcc_3", "name": "Mixed vegetables", "amount": 200, "unit": "g",  "groceryCategory": "produce" },
+      { "id": "di_vcc_4", "name": "Curry powder",     "amount": 10,  "unit": "g",  "groceryCategory": "pantry"  }
+    ],
+    "instructions": [
+      "Sauté vegetables with curry powder for 2 minutes, then add chickpeas.",
+      "Pour in coconut milk and simmer 15 minutes until sauce thickens.",
+      "Serve over basmati rice."
+    ]
+  },
+  {
+    "id": "di_spaghetti_bolognese",
+    "name": "Spaghetti Bolognese",
+    "category": "dinner",
+    "calories": 560,
+    "proteinGrams": 34,
+    "carbohydrateGrams": 68,
+    "fatGrams": 16,
+    "servings": 1,
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "dietaryStyleTags": ["dairy_free"],
+    "ingredients": [
+      { "id": "di_sb_0", "name": "Spaghetti",      "amount": 100, "unit": "g",  "groceryCategory": "grains"  },
+      { "id": "di_sb_1", "name": "Beef mince",     "amount": 150, "unit": "g",  "groceryCategory": "protein" },
+      { "id": "di_sb_2", "name": "Tomato sauce",   "amount": 200, "unit": "ml", "groceryCategory": "pantry"  },
+      { "id": "di_sb_3", "name": "Onion",          "amount": 80,  "unit": "g",  "groceryCategory": "produce" },
+      { "id": "di_sb_4", "name": "Garlic",         "amount": 10,  "unit": "g",  "groceryCategory": "produce" }
+    ],
+    "instructions": [
+      "Cook spaghetti per packet. Soften onion and garlic, then brown the mince.",
+      "Add tomato sauce and simmer 15 minutes. Season to taste.",
+      "Toss with drained spaghetti and serve."
+    ]
+  },
+  {
+    "id": "di_grilled_chicken_sweet_potato",
+    "name": "Grilled Chicken & Sweet Potato",
+    "category": "dinner",
+    "calories": 440,
+    "proteinGrams": 48,
+    "carbohydrateGrams": 34,
+    "fatGrams": 12,
+    "servings": 1,
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "dietaryStyleTags": ["gluten_free", "dairy_free"],
+    "ingredients": [
+      { "id": "di_gcs_0", "name": "Chicken breast", "amount": 180, "unit": "g",  "groceryCategory": "protein" },
+      { "id": "di_gcs_1", "name": "Sweet potato",   "amount": 200, "unit": "g",  "groceryCategory": "produce" },
+      { "id": "di_gcs_2", "name": "Olive oil",      "amount": 15,  "unit": "ml", "groceryCategory": "pantry"  },
+      { "id": "di_gcs_3", "name": "Smoked paprika", "amount": 5,   "unit": "g",  "groceryCategory": "pantry"  },
+      { "id": "di_gcs_4", "name": "Green beans",    "amount": 100, "unit": "g",  "groceryCategory": "produce" }
+    ],
+    "instructions": [
+      "Cube sweet potato, toss in olive oil and paprika, and roast at 200°C for 20 minutes.",
+      "Grill seasoned chicken breast for 6 min each side.",
+      "Steam or boil green beans and serve alongside."
+    ]
+  },
+  {
+    "id": "di_tofu_veg_stirfry",
+    "name": "Tofu & Vegetable Stir-fry",
+    "category": "dinner",
+    "calories": 360,
+    "proteinGrams": 20,
+    "carbohydrateGrams": 48,
+    "fatGrams": 10,
+    "servings": 1,
+    "prepMinutes": 10,
+    "cookMinutes": 12,
+    "dietaryStyleTags": ["vegetarian", "vegan", "dairy_free"],
+    "ingredients": [
+      { "id": "di_tvs_0", "name": "Firm tofu",       "amount": 200, "unit": "g",  "groceryCategory": "protein"    },
+      { "id": "di_tvs_1", "name": "Mixed vegetables", "amount": 250, "unit": "g",  "groceryCategory": "produce"    },
+      { "id": "di_tvs_2", "name": "Cooked jasmine rice","amount":150,"unit": "g",  "groceryCategory": "grains"     },
+      { "id": "di_tvs_3", "name": "Soy sauce",        "amount": 25,  "unit": "ml", "groceryCategory": "condiments" },
+      { "id": "di_tvs_4", "name": "Sesame oil",       "amount": 10,  "unit": "ml", "groceryCategory": "pantry"     }
+    ],
+    "instructions": [
+      "Press tofu dry, cube, and pan-fry in sesame oil until golden.",
+      "Add vegetables and stir-fry 3–4 minutes. Add soy sauce and toss.",
+      "Serve over jasmine rice."
+    ]
+  },
+  {
+    "id": "di_beef_broccoli_rice",
+    "name": "Beef & Broccoli with Rice",
+    "category": "dinner",
+    "calories": 510,
+    "proteinGrams": 38,
+    "carbohydrateGrams": 56,
+    "fatGrams": 14,
+    "servings": 1,
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "dietaryStyleTags": ["gluten_free", "dairy_free"],
+    "ingredients": [
+      { "id": "di_bbr_0", "name": "Beef strips",      "amount": 180, "unit": "g",  "groceryCategory": "protein"    },
+      { "id": "di_bbr_1", "name": "Broccoli",         "amount": 200, "unit": "g",  "groceryCategory": "produce"    },
+      { "id": "di_bbr_2", "name": "Cooked jasmine rice","amount":150,"unit": "g",  "groceryCategory": "grains"     },
+      { "id": "di_bbr_3", "name": "Oyster sauce",     "amount": 20,  "unit": "ml", "groceryCategory": "condiments" },
+      { "id": "di_bbr_4", "name": "Garlic",           "amount": 10,  "unit": "g",  "groceryCategory": "produce"    }
+    ],
+    "instructions": [
+      "Stir-fry beef strips in a hot wok with garlic until browned.",
+      "Add broccoli and oyster sauce, toss over high heat for 3 minutes.",
+      "Serve over steamed jasmine rice."
+    ]
+  },
+  {
+    "id": "di_baked_cod_sweet_potato",
+    "name": "Baked Cod with Sweet Potato",
+    "category": "dinner",
+    "calories": 380,
+    "proteinGrams": 38,
+    "carbohydrateGrams": 34,
+    "fatGrams": 10,
+    "servings": 1,
+    "prepMinutes": 8,
+    "cookMinutes": 20,
+    "dietaryStyleTags": ["gluten_free", "dairy_free"],
+    "ingredients": [
+      { "id": "di_bcs_0", "name": "Cod fillet",      "amount": 200, "unit": "g",  "groceryCategory": "protein" },
+      { "id": "di_bcs_1", "name": "Sweet potato",    "amount": 200, "unit": "g",  "groceryCategory": "produce" },
+      { "id": "di_bcs_2", "name": "Cherry tomatoes", "amount": 100, "unit": "g",  "groceryCategory": "produce" },
+      { "id": "di_bcs_3", "name": "Olive oil",       "amount": 15,  "unit": "ml", "groceryCategory": "pantry"  },
+      { "id": "di_bcs_4", "name": "Lemon",           "amount": 20,  "unit": "g",  "groceryCategory": "produce" }
+    ],
+    "instructions": [
+      "Cube sweet potato and roast in olive oil at 200°C for 10 minutes.",
+      "Add cod to the tray with cherry tomatoes and lemon slices.",
+      "Roast a further 12 minutes until cod flakes easily."
+    ]
+  },
+
+  {
+    "id": "sn_apple_almond_butter",
+    "name": "Apple with Almond Butter",
+    "category": "snack",
+    "calories": 200,
+    "proteinGrams": 6,
+    "carbohydrateGrams": 28,
+    "fatGrams": 10,
+    "servings": 1,
+    "prepMinutes": 2,
+    "cookMinutes": 0,
+    "dietaryStyleTags": ["vegetarian", "vegan", "gluten_free", "dairy_free"],
+    "ingredients": [
+      { "id": "sn_aab_0", "name": "Apple",          "amount": 150, "unit": "g",  "groceryCategory": "produce" },
+      { "id": "sn_aab_1", "name": "Almond butter",  "amount": 30,  "unit": "g",  "groceryCategory": "pantry"  }
+    ],
+    "instructions": [
+      "Slice apple and serve with almond butter for dipping."
+    ]
+  },
+  {
+    "id": "sn_cottage_cheese_berries",
+    "name": "Cottage Cheese with Berries",
+    "category": "snack",
+    "calories": 180,
+    "proteinGrams": 18,
+    "carbohydrateGrams": 18,
+    "fatGrams": 4,
+    "servings": 1,
+    "prepMinutes": 2,
+    "cookMinutes": 0,
+    "dietaryStyleTags": ["vegetarian", "gluten_free"],
+    "ingredients": [
+      { "id": "sn_ccb_0", "name": "Cottage cheese", "amount": 150, "unit": "g",  "groceryCategory": "dairy"   },
+      { "id": "sn_ccb_1", "name": "Mixed berries",  "amount": 80,  "unit": "g",  "groceryCategory": "produce" },
+      { "id": "sn_ccb_2", "name": "Honey",          "amount": 10,  "unit": "ml", "groceryCategory": "pantry"  }
+    ],
+    "instructions": [
+      "Spoon cottage cheese into a bowl, top with berries and a drizzle of honey."
+    ]
+  },
+  {
+    "id": "sn_hummus_veg_sticks",
+    "name": "Hummus with Veggie Sticks",
+    "category": "snack",
+    "calories": 160,
+    "proteinGrams": 6,
+    "carbohydrateGrams": 20,
+    "fatGrams": 6,
+    "servings": 1,
+    "prepMinutes": 5,
+    "cookMinutes": 0,
+    "dietaryStyleTags": ["vegetarian", "vegan", "gluten_free", "dairy_free"],
+    "ingredients": [
+      { "id": "sn_hvs_0", "name": "Hummus",      "amount": 80,  "unit": "g", "groceryCategory": "pantry"  },
+      { "id": "sn_hvs_1", "name": "Carrots",     "amount": 100, "unit": "g", "groceryCategory": "produce" },
+      { "id": "sn_hvs_2", "name": "Cucumber",    "amount": 100, "unit": "g", "groceryCategory": "produce" }
+    ],
+    "instructions": [
+      "Cut carrots and cucumber into sticks and serve alongside hummus."
+    ]
+  },
+  {
+    "id": "sn_mixed_nuts",
+    "name": "Mixed Nuts",
+    "category": "snack",
+    "calories": 190,
+    "proteinGrams": 5,
+    "carbohydrateGrams": 6,
+    "fatGrams": 17,
+    "servings": 1,
+    "prepMinutes": 0,
+    "cookMinutes": 0,
+    "dietaryStyleTags": ["vegetarian", "vegan", "gluten_free", "dairy_free"],
+    "ingredients": [
+      { "id": "sn_mn_0", "name": "Mixed nuts", "amount": 40, "unit": "g", "groceryCategory": "pantry" }
+    ],
+    "instructions": [
+      "Measure into a small bowl or portion bag for a portable snack."
+    ]
+  },
+  {
+    "id": "sn_protein_shake",
+    "name": "Vanilla Protein Shake",
+    "category": "snack",
+    "calories": 220,
+    "proteinGrams": 28,
+    "carbohydrateGrams": 24,
+    "fatGrams": 3,
+    "servings": 1,
+    "prepMinutes": 3,
+    "cookMinutes": 0,
+    "dietaryStyleTags": ["vegetarian", "gluten_free"],
+    "ingredients": [
+      { "id": "sn_vps_0", "name": "Vanilla protein powder", "amount": 35,  "unit": "g",  "groceryCategory": "pantry" },
+      { "id": "sn_vps_1", "name": "Semi-skimmed milk",      "amount": 250, "unit": "ml", "groceryCategory": "dairy"  },
+      { "id": "sn_vps_2", "name": "Banana",                 "amount": 80,  "unit": "g",  "groceryCategory": "produce"}
+    ],
+    "instructions": [
+      "Blend protein powder, milk, and banana until smooth.",
+      "Serve immediately or chill briefly."
+    ]
+  },
+
+  {
+    "id": "bk_chia_pudding",
+    "name": "Chocolate Chia Pudding",
+    "category": "breakfast",
+    "calories": 300,
+    "proteinGrams": 12,
+    "carbohydrateGrams": 40,
+    "fatGrams": 11,
+    "servings": 1,
+    "prepMinutes": 5,
+    "cookMinutes": 0,
+    "dietaryStyleTags": ["vegetarian", "vegan", "gluten_free", "dairy_free"],
+    "ingredients": [
+      { "id": "bk_cp_0", "name": "Chia seeds",         "amount": 40,  "unit": "g",  "groceryCategory": "pantry"  },
+      { "id": "bk_cp_1", "name": "Oat milk",            "amount": 250, "unit": "ml", "groceryCategory": "pantry"  },
+      { "id": "bk_cp_2", "name": "Cocoa powder",        "amount": 10,  "unit": "g",  "groceryCategory": "pantry"  },
+      { "id": "bk_cp_3", "name": "Maple syrup",         "amount": 15,  "unit": "ml", "groceryCategory": "pantry"  },
+      { "id": "bk_cp_4", "name": "Mixed berries",       "amount": 80,  "unit": "g",  "groceryCategory": "produce" }
+    ],
+    "instructions": [
+      "Whisk chia seeds, oat milk, cocoa powder, and maple syrup together in a jar.",
+      "Refrigerate overnight, stirring once after 30 minutes to prevent clumping.",
+      "Top with mixed berries before serving."
+    ]
+  },
+  {
+    "id": "bk_veggie_omelette",
+    "name": "Vegetable Omelette",
+    "category": "breakfast",
+    "calories": 260,
+    "proteinGrams": 20,
+    "carbohydrateGrams": 10,
+    "fatGrams": 16,
+    "servings": 1,
+    "prepMinutes": 5,
+    "cookMinutes": 8,
+    "dietaryStyleTags": ["vegetarian", "gluten_free"],
+    "ingredients": [
+      { "id": "bk_vo_0", "name": "Eggs",             "amount": 3,   "unit": "piece", "groceryCategory": "protein" },
+      { "id": "bk_vo_1", "name": "Bell pepper",      "amount": 80,  "unit": "g",     "groceryCategory": "produce" },
+      { "id": "bk_vo_2", "name": "Cherry tomatoes",  "amount": 80,  "unit": "g",     "groceryCategory": "produce" },
+      { "id": "bk_vo_3", "name": "Baby spinach",     "amount": 40,  "unit": "g",     "groceryCategory": "produce" },
+      { "id": "bk_vo_4", "name": "Olive oil",        "amount": 10,  "unit": "ml",    "groceryCategory": "pantry"  },
+      { "id": "bk_vo_5", "name": "Cheddar cheese",   "amount": 20,  "unit": "g",     "groceryCategory": "dairy"   }
+    ],
+    "instructions": [
+      "Whisk eggs with salt and pepper. Sauté pepper and tomatoes in olive oil for 2 minutes.",
+      "Add spinach until wilted, then pour over eggs.",
+      "Cook on low until set, scatter cheese, fold, and serve."
+    ]
+  },
+  {
+    "id": "bk_granola_parfait",
+    "name": "Granola & Yogurt Parfait",
+    "category": "breakfast",
+    "calories": 350,
+    "proteinGrams": 14,
+    "carbohydrateGrams": 52,
+    "fatGrams": 8,
+    "servings": 1,
+    "prepMinutes": 5,
+    "cookMinutes": 0,
+    "dietaryStyleTags": ["vegetarian"],
+    "ingredients": [
+      { "id": "bk_gp_0", "name": "Greek yogurt",    "amount": 180, "unit": "g",  "groceryCategory": "dairy"   },
+      { "id": "bk_gp_1", "name": "Granola",         "amount": 60,  "unit": "g",  "groceryCategory": "grains"  },
+      { "id": "bk_gp_2", "name": "Mixed berries",   "amount": 100, "unit": "g",  "groceryCategory": "produce" },
+      { "id": "bk_gp_3", "name": "Honey",           "amount": 10,  "unit": "ml", "groceryCategory": "pantry"  }
+    ],
+    "instructions": [
+      "Layer Greek yogurt in a glass, add granola, then berries.",
+      "Repeat layers and drizzle honey on top."
+    ]
+  },
+  {
+    "id": "bk_smoked_salmon_bagel",
+    "name": "Smoked Salmon Bagel",
+    "category": "breakfast",
+    "calories": 380,
+    "proteinGrams": 28,
+    "carbohydrateGrams": 42,
+    "fatGrams": 10,
+    "servings": 1,
+    "prepMinutes": 5,
+    "cookMinutes": 0,
+    "dietaryStyleTags": ["dairy_free"],
+    "ingredients": [
+      { "id": "bk_ssb_0", "name": "Wholegrain bagel",  "amount": 1,   "unit": "piece", "groceryCategory": "grains"  },
+      { "id": "bk_ssb_1", "name": "Smoked salmon",     "amount": 100, "unit": "g",     "groceryCategory": "protein" },
+      { "id": "bk_ssb_2", "name": "Cream cheese",      "amount": 30,  "unit": "g",     "groceryCategory": "dairy"   },
+      { "id": "bk_ssb_3", "name": "Cucumber",          "amount": 50,  "unit": "g",     "groceryCategory": "produce" },
+      { "id": "bk_ssb_4", "name": "Capers",            "amount": 10,  "unit": "g",     "groceryCategory": "condiments" },
+      { "id": "bk_ssb_5", "name": "Lemon juice",       "amount": 5,   "unit": "ml",    "groceryCategory": "produce" }
+    ],
+    "instructions": [
+      "Slice and lightly toast the bagel.",
+      "Spread cream cheese on both halves, layer smoked salmon and cucumber.",
+      "Scatter capers and squeeze lemon juice over the top."
+    ]
+  },
+  {
+    "id": "bk_pb_banana_toast",
+    "name": "Peanut Butter & Banana Toast",
+    "category": "breakfast",
+    "calories": 360,
+    "proteinGrams": 14,
+    "carbohydrateGrams": 48,
+    "fatGrams": 14,
+    "servings": 1,
+    "prepMinutes": 3,
+    "cookMinutes": 2,
+    "dietaryStyleTags": ["vegetarian", "vegan", "dairy_free"],
+    "ingredients": [
+      { "id": "bk_pbt_0", "name": "Wholegrain bread",  "amount": 2,   "unit": "slice", "groceryCategory": "grains"  },
+      { "id": "bk_pbt_1", "name": "Peanut butter",     "amount": 40,  "unit": "g",     "groceryCategory": "pantry"  },
+      { "id": "bk_pbt_2", "name": "Banana",            "amount": 100, "unit": "g",     "groceryCategory": "produce" },
+      { "id": "bk_pbt_3", "name": "Cinnamon",          "amount": 1,   "unit": "g",     "groceryCategory": "pantry"  }
+    ],
+    "instructions": [
+      "Toast the bread to your liking.",
+      "Spread peanut butter generously on each slice.",
+      "Top with banana slices and a pinch of cinnamon."
+    ]
+  },
+  {
+    "id": "bk_egg_white_omelette",
+    "name": "Egg White & Mushroom Omelette",
+    "category": "breakfast",
+    "calories": 180,
+    "proteinGrams": 24,
+    "carbohydrateGrams": 6,
+    "fatGrams": 6,
+    "servings": 1,
+    "prepMinutes": 5,
+    "cookMinutes": 8,
+    "dietaryStyleTags": ["vegetarian", "gluten_free"],
+    "ingredients": [
+      { "id": "bk_ewo_0", "name": "Egg whites",       "amount": 180, "unit": "ml",    "groceryCategory": "protein" },
+      { "id": "bk_ewo_1", "name": "Mushrooms",        "amount": 120, "unit": "g",     "groceryCategory": "produce" },
+      { "id": "bk_ewo_2", "name": "Baby spinach",     "amount": 40,  "unit": "g",     "groceryCategory": "produce" },
+      { "id": "bk_ewo_3", "name": "Olive oil spray",  "amount": 5,   "unit": "ml",    "groceryCategory": "pantry"  },
+      { "id": "bk_ewo_4", "name": "Fresh herbs",      "amount": 5,   "unit": "g",     "groceryCategory": "produce" }
+    ],
+    "instructions": [
+      "Slice mushrooms and sauté with a little oil until golden.",
+      "Add spinach and wilt. Season egg whites and pour over the vegetables.",
+      "Cook on low, folding once, until just set. Garnish with fresh herbs."
+    ]
+  },
+  {
+    "id": "bk_acai_bowl",
+    "name": "Açaí Smoothie Bowl",
+    "category": "breakfast",
+    "calories": 340,
+    "proteinGrams": 8,
+    "carbohydrateGrams": 56,
+    "fatGrams": 10,
+    "servings": 1,
+    "prepMinutes": 8,
+    "cookMinutes": 0,
+    "dietaryStyleTags": ["vegetarian", "vegan", "gluten_free", "dairy_free"],
+    "ingredients": [
+      { "id": "bk_ab_0", "name": "Frozen açaí pulp",   "amount": 100, "unit": "g",  "groceryCategory": "produce" },
+      { "id": "bk_ab_1", "name": "Frozen banana",      "amount": 100, "unit": "g",  "groceryCategory": "produce" },
+      { "id": "bk_ab_2", "name": "Almond milk",        "amount": 100, "unit": "ml", "groceryCategory": "pantry"  },
+      { "id": "bk_ab_3", "name": "Granola",            "amount": 40,  "unit": "g",  "groceryCategory": "grains"  },
+      { "id": "bk_ab_4", "name": "Mixed berries",      "amount": 60,  "unit": "g",  "groceryCategory": "produce" },
+      { "id": "bk_ab_5", "name": "Coconut flakes",     "amount": 10,  "unit": "g",  "groceryCategory": "pantry"  }
+    ],
+    "instructions": [
+      "Blend açaí, frozen banana, and almond milk until thick and smooth.",
+      "Pour into a bowl and top with granola, berries, and coconut flakes."
+    ]
+  },
+  {
+    "id": "bk_cottage_cheese_toast",
+    "name": "Cottage Cheese & Tomato Toast",
+    "category": "breakfast",
+    "calories": 290,
+    "proteinGrams": 22,
+    "carbohydrateGrams": 28,
+    "fatGrams": 8,
+    "servings": 1,
+    "prepMinutes": 5,
+    "cookMinutes": 2,
+    "dietaryStyleTags": ["vegetarian"],
+    "ingredients": [
+      { "id": "bk_cct_0", "name": "Wholegrain bread",   "amount": 2,   "unit": "slice", "groceryCategory": "grains"  },
+      { "id": "bk_cct_1", "name": "Cottage cheese",     "amount": 150, "unit": "g",     "groceryCategory": "dairy"   },
+      { "id": "bk_cct_2", "name": "Tomatoes",           "amount": 100, "unit": "g",     "groceryCategory": "produce" },
+      { "id": "bk_cct_3", "name": "Fresh chives",       "amount": 5,   "unit": "g",     "groceryCategory": "produce" }
+    ],
+    "instructions": [
+      "Toast bread and spread with cottage cheese.",
+      "Top with sliced tomatoes, chives, salt, and cracked pepper."
+    ]
+  },
+
+  {
+    "id": "lu_salmon_spinach_salad",
+    "name": "Grilled Salmon & Spinach Salad",
+    "category": "lunch",
+    "calories": 420,
+    "proteinGrams": 40,
+    "carbohydrateGrams": 12,
+    "fatGrams": 24,
+    "servings": 1,
+    "prepMinutes": 10,
+    "cookMinutes": 12,
+    "dietaryStyleTags": ["gluten_free", "dairy_free"],
+    "ingredients": [
+      { "id": "lu_sss_0", "name": "Salmon fillet",     "amount": 160, "unit": "g",  "groceryCategory": "protein"    },
+      { "id": "lu_sss_1", "name": "Baby spinach",      "amount": 80,  "unit": "g",  "groceryCategory": "produce"    },
+      { "id": "lu_sss_2", "name": "Avocado",           "amount": 80,  "unit": "g",  "groceryCategory": "produce"    },
+      { "id": "lu_sss_3", "name": "Cherry tomatoes",   "amount": 100, "unit": "g",  "groceryCategory": "produce"    },
+      { "id": "lu_sss_4", "name": "Olive oil",         "amount": 15,  "unit": "ml", "groceryCategory": "pantry"     },
+      { "id": "lu_sss_5", "name": "Balsamic vinegar",  "amount": 10,  "unit": "ml", "groceryCategory": "condiments" }
+    ],
+    "instructions": [
+      "Season salmon and grill for 5–6 minutes each side.",
+      "Toss spinach, tomatoes, and avocado with olive oil and balsamic.",
+      "Flake salmon over the salad and serve warm."
+    ]
+  },
+  {
+    "id": "lu_chickpea_wrap",
+    "name": "Chickpea & Roasted Pepper Wrap",
+    "category": "lunch",
+    "calories": 410,
+    "proteinGrams": 16,
+    "carbohydrateGrams": 60,
+    "fatGrams": 10,
+    "servings": 1,
+    "prepMinutes": 8,
+    "cookMinutes": 0,
+    "dietaryStyleTags": ["vegetarian", "vegan", "dairy_free"],
+    "ingredients": [
+      { "id": "lu_cpw_0", "name": "Wholegrain tortilla", "amount": 1,   "unit": "piece", "groceryCategory": "grains"     },
+      { "id": "lu_cpw_1", "name": "Chickpeas",           "amount": 130, "unit": "g",     "groceryCategory": "protein"    },
+      { "id": "lu_cpw_2", "name": "Roasted red pepper",  "amount": 80,  "unit": "g",     "groceryCategory": "produce"    },
+      { "id": "lu_cpw_3", "name": "Romaine lettuce",     "amount": 40,  "unit": "g",     "groceryCategory": "produce"    },
+      { "id": "lu_cpw_4", "name": "Hummus",              "amount": 50,  "unit": "g",     "groceryCategory": "pantry"     },
+      { "id": "lu_cpw_5", "name": "Lemon juice",         "amount": 10,  "unit": "ml",    "groceryCategory": "produce"    }
+    ],
+    "instructions": [
+      "Mash chickpeas lightly with lemon juice, cumin, salt, and pepper.",
+      "Spread hummus on the tortilla, layer lettuce, roasted pepper, and chickpeas.",
+      "Roll tightly and slice in half to serve."
+    ]
+  },
+  {
+    "id": "lu_prawn_rice_bowl",
+    "name": "Garlic Prawn Rice Bowl",
+    "category": "lunch",
+    "calories": 390,
+    "proteinGrams": 34,
+    "carbohydrateGrams": 44,
+    "fatGrams": 8,
+    "servings": 1,
+    "prepMinutes": 8,
+    "cookMinutes": 10,
+    "dietaryStyleTags": ["gluten_free", "dairy_free"],
+    "ingredients": [
+      { "id": "lu_prb_0", "name": "King prawns",        "amount": 160, "unit": "g",  "groceryCategory": "protein"    },
+      { "id": "lu_prb_1", "name": "Cooked jasmine rice","amount": 150, "unit": "g",  "groceryCategory": "grains"     },
+      { "id": "lu_prb_2", "name": "Garlic",             "amount": 15,  "unit": "g",  "groceryCategory": "produce"    },
+      { "id": "lu_prb_3", "name": "Tenderstem broccoli","amount": 100, "unit": "g",  "groceryCategory": "produce"    },
+      { "id": "lu_prb_4", "name": "Soy sauce",          "amount": 20,  "unit": "ml", "groceryCategory": "condiments" },
+      { "id": "lu_prb_5", "name": "Sesame oil",         "amount": 8,   "unit": "ml", "groceryCategory": "pantry"     }
+    ],
+    "instructions": [
+      "Blanch broccoli for 2 minutes. Sauté garlic in sesame oil until fragrant.",
+      "Add prawns and cook for 2–3 minutes until pink. Add soy sauce.",
+      "Serve over jasmine rice with broccoli."
+    ]
+  },
+  {
+    "id": "lu_mushroom_risotto",
+    "name": "Mushroom & Parmesan Risotto",
+    "category": "lunch",
+    "calories": 420,
+    "proteinGrams": 14,
+    "carbohydrateGrams": 60,
+    "fatGrams": 12,
+    "servings": 1,
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "dietaryStyleTags": ["vegetarian", "gluten_free"],
+    "ingredients": [
+      { "id": "lu_mr_0", "name": "Arborio rice",       "amount": 100, "unit": "g",  "groceryCategory": "grains"     },
+      { "id": "lu_mr_1", "name": "Mixed mushrooms",    "amount": 200, "unit": "g",  "groceryCategory": "produce"    },
+      { "id": "lu_mr_2", "name": "Vegetable stock",    "amount": 500, "unit": "ml", "groceryCategory": "pantry"     },
+      { "id": "lu_mr_3", "name": "Parmesan",           "amount": 30,  "unit": "g",  "groceryCategory": "dairy"      },
+      { "id": "lu_mr_4", "name": "Onion",              "amount": 80,  "unit": "g",  "groceryCategory": "produce"    },
+      { "id": "lu_mr_5", "name": "Olive oil",          "amount": 15,  "unit": "ml", "groceryCategory": "pantry"     }
+    ],
+    "instructions": [
+      "Sauté onion in olive oil until soft. Add rice and toast for 1 minute.",
+      "Add warm stock one ladle at a time, stirring constantly for 20 minutes.",
+      "Fold in sautéed mushrooms and parmesan, season, and serve."
+    ]
+  },
+  {
+    "id": "lu_egg_fried_rice",
+    "name": "Egg Fried Rice",
+    "category": "lunch",
+    "calories": 400,
+    "proteinGrams": 16,
+    "carbohydrateGrams": 56,
+    "fatGrams": 12,
+    "servings": 1,
+    "prepMinutes": 5,
+    "cookMinutes": 10,
+    "dietaryStyleTags": ["vegetarian", "dairy_free"],
+    "ingredients": [
+      { "id": "lu_efr_0", "name": "Cooked jasmine rice","amount": 200, "unit": "g",  "groceryCategory": "grains"     },
+      { "id": "lu_efr_1", "name": "Eggs",               "amount": 2,   "unit": "piece","groceryCategory": "protein"  },
+      { "id": "lu_efr_2", "name": "Spring onions",      "amount": 40,  "unit": "g",  "groceryCategory": "produce"    },
+      { "id": "lu_efr_3", "name": "Frozen peas",        "amount": 80,  "unit": "g",  "groceryCategory": "produce"    },
+      { "id": "lu_efr_4", "name": "Soy sauce",          "amount": 20,  "unit": "ml", "groceryCategory": "condiments" },
+      { "id": "lu_efr_5", "name": "Sesame oil",         "amount": 10,  "unit": "ml", "groceryCategory": "pantry"     }
+    ],
+    "instructions": [
+      "Heat sesame oil in a wok on high heat. Add cold rice and stir-fry for 2 minutes.",
+      "Push rice to one side, scramble eggs in the centre, then fold in.",
+      "Add peas, spring onions, and soy sauce. Toss for 2 more minutes."
+    ]
+  },
+  {
+    "id": "lu_greek_chicken_salad",
+    "name": "Greek Salad with Grilled Chicken",
+    "category": "lunch",
+    "calories": 360,
+    "proteinGrams": 36,
+    "carbohydrateGrams": 14,
+    "fatGrams": 18,
+    "servings": 1,
+    "prepMinutes": 10,
+    "cookMinutes": 12,
+    "dietaryStyleTags": ["gluten_free"],
+    "ingredients": [
+      { "id": "lu_gcs_0", "name": "Chicken breast",  "amount": 150, "unit": "g",  "groceryCategory": "protein" },
+      { "id": "lu_gcs_1", "name": "Cucumber",        "amount": 100, "unit": "g",  "groceryCategory": "produce" },
+      { "id": "lu_gcs_2", "name": "Cherry tomatoes", "amount": 100, "unit": "g",  "groceryCategory": "produce" },
+      { "id": "lu_gcs_3", "name": "Feta cheese",     "amount": 50,  "unit": "g",  "groceryCategory": "dairy"   },
+      { "id": "lu_gcs_4", "name": "Kalamata olives", "amount": 30,  "unit": "g",  "groceryCategory": "pantry"  },
+      { "id": "lu_gcs_5", "name": "Olive oil",       "amount": 15,  "unit": "ml", "groceryCategory": "pantry"  }
+    ],
+    "instructions": [
+      "Grill seasoned chicken breast for 6 minutes each side, then slice.",
+      "Combine cucumber, tomatoes, olives, and feta in a bowl.",
+      "Dress with olive oil, oregano, and season to taste. Top with chicken."
+    ]
+  },
+  {
+    "id": "lu_lentil_pasta",
+    "name": "Lentil Bolognese Pasta",
+    "category": "lunch",
+    "calories": 430,
+    "proteinGrams": 22,
+    "carbohydrateGrams": 68,
+    "fatGrams": 6,
+    "servings": 1,
+    "prepMinutes": 8,
+    "cookMinutes": 25,
+    "dietaryStyleTags": ["vegetarian", "vegan", "dairy_free"],
+    "ingredients": [
+      { "id": "lu_lp_0", "name": "Spaghetti",         "amount": 100, "unit": "g",  "groceryCategory": "grains"  },
+      { "id": "lu_lp_1", "name": "Green lentils",     "amount": 80,  "unit": "g",  "groceryCategory": "protein" },
+      { "id": "lu_lp_2", "name": "Tomato sauce",      "amount": 200, "unit": "ml", "groceryCategory": "pantry"  },
+      { "id": "lu_lp_3", "name": "Carrot",            "amount": 80,  "unit": "g",  "groceryCategory": "produce" },
+      { "id": "lu_lp_4", "name": "Celery",            "amount": 60,  "unit": "g",  "groceryCategory": "produce" },
+      { "id": "lu_lp_5", "name": "Garlic",            "amount": 10,  "unit": "g",  "groceryCategory": "produce" }
+    ],
+    "instructions": [
+      "Cook lentils in water for 15 minutes until tender, then drain.",
+      "Sauté garlic, carrot, and celery, add lentils and tomato sauce, simmer 10 minutes.",
+      "Cook pasta, drain, and toss with the lentil sauce."
+    ]
+  },
+  {
+    "id": "lu_spicy_beef_bowl",
+    "name": "Spicy Beef & Rice Bowl",
+    "category": "lunch",
+    "calories": 480,
+    "proteinGrams": 38,
+    "carbohydrateGrams": 50,
+    "fatGrams": 14,
+    "servings": 1,
+    "prepMinutes": 8,
+    "cookMinutes": 12,
+    "dietaryStyleTags": ["gluten_free", "dairy_free"],
+    "ingredients": [
+      { "id": "lu_sbb_0", "name": "Beef mince",        "amount": 160, "unit": "g",  "groceryCategory": "protein"    },
+      { "id": "lu_sbb_1", "name": "Cooked brown rice", "amount": 150, "unit": "g",  "groceryCategory": "grains"     },
+      { "id": "lu_sbb_2", "name": "Gochujang paste",   "amount": 15,  "unit": "g",  "groceryCategory": "condiments" },
+      { "id": "lu_sbb_3", "name": "Edamame",           "amount": 80,  "unit": "g",  "groceryCategory": "produce"    },
+      { "id": "lu_sbb_4", "name": "Spring onions",     "amount": 30,  "unit": "g",  "groceryCategory": "produce"    },
+      { "id": "lu_sbb_5", "name": "Soy sauce",         "amount": 15,  "unit": "ml", "groceryCategory": "condiments" }
+    ],
+    "instructions": [
+      "Brown beef mince in a hot pan, drain excess fat.",
+      "Stir in gochujang paste and soy sauce, cook 2 minutes.",
+      "Serve over rice with edamame and spring onions."
+    ]
+  },
+
+  {
+    "id": "di_turkey_meatballs",
+    "name": "Turkey Meatballs & Zucchini Noodles",
+    "category": "dinner",
+    "calories": 380,
+    "proteinGrams": 40,
+    "carbohydrateGrams": 16,
+    "fatGrams": 18,
+    "servings": 1,
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "dietaryStyleTags": ["gluten_free", "dairy_free"],
+    "ingredients": [
+      { "id": "di_tm_0", "name": "Turkey mince",      "amount": 200, "unit": "g",  "groceryCategory": "protein" },
+      { "id": "di_tm_1", "name": "Zucchini",          "amount": 300, "unit": "g",  "groceryCategory": "produce" },
+      { "id": "di_tm_2", "name": "Tomato sauce",      "amount": 150, "unit": "ml", "groceryCategory": "pantry"  },
+      { "id": "di_tm_3", "name": "Garlic",            "amount": 10,  "unit": "g",  "groceryCategory": "produce" },
+      { "id": "di_tm_4", "name": "Egg",               "amount": 1,   "unit": "piece","groceryCategory": "protein"},
+      { "id": "di_tm_5", "name": "Italian herbs",     "amount": 5,   "unit": "g",  "groceryCategory": "pantry"  }
+    ],
+    "instructions": [
+      "Mix turkey mince with egg, garlic, herbs, salt, and pepper. Roll into 12 meatballs.",
+      "Brown meatballs in olive oil, then simmer in tomato sauce for 15 minutes.",
+      "Spiralize zucchini and sauté for 2 minutes. Serve topped with meatballs and sauce."
+    ]
+  },
+  {
+    "id": "di_pork_tenderloin",
+    "name": "Herb-Crusted Pork Tenderloin",
+    "category": "dinner",
+    "calories": 400,
+    "proteinGrams": 44,
+    "carbohydrateGrams": 18,
+    "fatGrams": 16,
+    "servings": 1,
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "dietaryStyleTags": ["gluten_free", "dairy_free"],
+    "ingredients": [
+      { "id": "di_pt_0", "name": "Pork tenderloin",  "amount": 200, "unit": "g",  "groceryCategory": "protein" },
+      { "id": "di_pt_1", "name": "Sweet potato",     "amount": 150, "unit": "g",  "groceryCategory": "produce" },
+      { "id": "di_pt_2", "name": "Green beans",      "amount": 120, "unit": "g",  "groceryCategory": "produce" },
+      { "id": "di_pt_3", "name": "Dijon mustard",    "amount": 15,  "unit": "g",  "groceryCategory": "condiments"},
+      { "id": "di_pt_4", "name": "Fresh rosemary",   "amount": 5,   "unit": "g",  "groceryCategory": "produce" },
+      { "id": "di_pt_5", "name": "Olive oil",        "amount": 15,  "unit": "ml", "groceryCategory": "pantry"  }
+    ],
+    "instructions": [
+      "Rub pork with mustard, rosemary, salt, and pepper.",
+      "Sear in ovenproof pan, then roast at 200°C for 18–20 minutes. Rest 5 minutes before slicing.",
+      "Roast sweet potato cubes and steam green beans alongside."
+    ]
+  },
+  {
+    "id": "di_mushroom_pasta",
+    "name": "Creamy Mushroom Pasta",
+    "category": "dinner",
+    "calories": 480,
+    "proteinGrams": 16,
+    "carbohydrateGrams": 62,
+    "fatGrams": 18,
+    "servings": 1,
+    "prepMinutes": 8,
+    "cookMinutes": 15,
+    "dietaryStyleTags": ["vegetarian"],
+    "ingredients": [
+      { "id": "di_mp_0", "name": "Penne pasta",        "amount": 100, "unit": "g",  "groceryCategory": "grains"  },
+      { "id": "di_mp_1", "name": "Mixed mushrooms",    "amount": 200, "unit": "g",  "groceryCategory": "produce" },
+      { "id": "di_mp_2", "name": "Single cream",       "amount": 100, "unit": "ml", "groceryCategory": "dairy"   },
+      { "id": "di_mp_3", "name": "Garlic",             "amount": 10,  "unit": "g",  "groceryCategory": "produce" },
+      { "id": "di_mp_4", "name": "Parmesan",           "amount": 25,  "unit": "g",  "groceryCategory": "dairy"   },
+      { "id": "di_mp_5", "name": "Fresh thyme",        "amount": 5,   "unit": "g",  "groceryCategory": "produce" }
+    ],
+    "instructions": [
+      "Cook pasta per packet instructions.",
+      "Sauté garlic and mushrooms in butter until golden, add cream and thyme. Simmer 3 minutes.",
+      "Toss with drained pasta, season, and finish with grated parmesan."
+    ]
+  },
+  {
+    "id": "di_prawn_stir_fry",
+    "name": "Prawn & Vegetable Stir-fry",
+    "category": "dinner",
+    "calories": 350,
+    "proteinGrams": 34,
+    "carbohydrateGrams": 32,
+    "fatGrams": 10,
+    "servings": 1,
+    "prepMinutes": 10,
+    "cookMinutes": 10,
+    "dietaryStyleTags": ["gluten_free", "dairy_free"],
+    "ingredients": [
+      { "id": "di_psf_0", "name": "King prawns",         "amount": 180, "unit": "g",  "groceryCategory": "protein"    },
+      { "id": "di_psf_1", "name": "Cooked brown rice",   "amount": 120, "unit": "g",  "groceryCategory": "grains"     },
+      { "id": "di_psf_2", "name": "Pak choi",            "amount": 150, "unit": "g",  "groceryCategory": "produce"    },
+      { "id": "di_psf_3", "name": "Bell pepper",         "amount": 100, "unit": "g",  "groceryCategory": "produce"    },
+      { "id": "di_psf_4", "name": "Oyster sauce",        "amount": 20,  "unit": "ml", "groceryCategory": "condiments" },
+      { "id": "di_psf_5", "name": "Fresh ginger",        "amount": 8,   "unit": "g",  "groceryCategory": "produce"    }
+    ],
+    "instructions": [
+      "Stir-fry ginger in a hot wok with a little oil. Add peppers and pak choi.",
+      "Add prawns and cook 2–3 minutes until pink. Toss in oyster sauce.",
+      "Serve over brown rice."
+    ]
+  },
+  {
+    "id": "di_lamb_lentil_stew",
+    "name": "Lamb & Lentil Stew",
+    "category": "dinner",
+    "calories": 450,
+    "proteinGrams": 36,
+    "carbohydrateGrams": 38,
+    "fatGrams": 16,
+    "servings": 1,
+    "prepMinutes": 12,
+    "cookMinutes": 35,
+    "dietaryStyleTags": ["gluten_free", "dairy_free"],
+    "ingredients": [
+      { "id": "di_lls_0", "name": "Lamb shoulder",    "amount": 180, "unit": "g",  "groceryCategory": "protein" },
+      { "id": "di_lls_1", "name": "Green lentils",    "amount": 80,  "unit": "g",  "groceryCategory": "grains"  },
+      { "id": "di_lls_2", "name": "Chopped tomatoes", "amount": 200, "unit": "g",  "groceryCategory": "pantry"  },
+      { "id": "di_lls_3", "name": "Onion",            "amount": 80,  "unit": "g",  "groceryCategory": "produce" },
+      { "id": "di_lls_4", "name": "Ras el hanout",    "amount": 8,   "unit": "g",  "groceryCategory": "pantry"  },
+      { "id": "di_lls_5", "name": "Lamb stock",       "amount": 300, "unit": "ml", "groceryCategory": "pantry"  }
+    ],
+    "instructions": [
+      "Brown diced lamb in batches. Soften onion in the same pan.",
+      "Return lamb, add lentils, tomatoes, stock, and ras el hanout. Simmer 30 minutes.",
+      "Season and serve with crusty bread or couscous."
+    ]
+  },
+  {
+    "id": "di_chicken_tikka",
+    "name": "Chicken Tikka Masala",
+    "category": "dinner",
+    "calories": 480,
+    "proteinGrams": 42,
+    "carbohydrateGrams": 30,
+    "fatGrams": 20,
+    "servings": 1,
+    "prepMinutes": 15,
+    "cookMinutes": 25,
+    "dietaryStyleTags": ["gluten_free"],
+    "ingredients": [
+      { "id": "di_ctm_0", "name": "Chicken breast",   "amount": 200, "unit": "g",  "groceryCategory": "protein" },
+      { "id": "di_ctm_1", "name": "Cooked basmati rice","amount": 120,"unit": "g",  "groceryCategory": "grains"  },
+      { "id": "di_ctm_2", "name": "Tikka masala paste","amount": 40,  "unit": "g",  "groceryCategory": "condiments"},
+      { "id": "di_ctm_3", "name": "Chopped tomatoes",  "amount": 200, "unit": "ml", "groceryCategory": "pantry"  },
+      { "id": "di_ctm_4", "name": "Greek yogurt",      "amount": 80,  "unit": "g",  "groceryCategory": "dairy"   },
+      { "id": "di_ctm_5", "name": "Fresh coriander",   "amount": 5,   "unit": "g",  "groceryCategory": "produce" }
+    ],
+    "instructions": [
+      "Marinate chicken in yogurt and tikka paste for at least 10 minutes. Grill until charred.",
+      "Simmer tomatoes with extra tikka paste for 5 minutes, add remaining yogurt.",
+      "Add chicken, simmer 8 minutes, garnish with coriander and serve with rice."
+    ]
+  },
+  {
+    "id": "di_stuffed_peppers",
+    "name": "Quinoa-Stuffed Bell Peppers",
+    "category": "dinner",
+    "calories": 400,
+    "proteinGrams": 20,
+    "carbohydrateGrams": 52,
+    "fatGrams": 12,
+    "servings": 1,
+    "prepMinutes": 15,
+    "cookMinutes": 30,
+    "dietaryStyleTags": ["vegetarian", "gluten_free"],
+    "ingredients": [
+      { "id": "di_qsp_0", "name": "Bell peppers",       "amount": 2,   "unit": "piece", "groceryCategory": "produce" },
+      { "id": "di_qsp_1", "name": "Cooked quinoa",      "amount": 120, "unit": "g",     "groceryCategory": "grains"  },
+      { "id": "di_qsp_2", "name": "Black beans",        "amount": 100, "unit": "g",     "groceryCategory": "protein" },
+      { "id": "di_qsp_3", "name": "Corn",               "amount": 60,  "unit": "g",     "groceryCategory": "produce" },
+      { "id": "di_qsp_4", "name": "Cheddar cheese",     "amount": 40,  "unit": "g",     "groceryCategory": "dairy"   },
+      { "id": "di_qsp_5", "name": "Smoked paprika",     "amount": 4,   "unit": "g",     "groceryCategory": "pantry"  }
+    ],
+    "instructions": [
+      "Halve and deseed peppers. Mix quinoa, black beans, corn, and paprika.",
+      "Fill peppers with the quinoa mixture, top with grated cheese.",
+      "Bake at 190°C for 25–30 minutes until peppers are tender."
+    ]
+  },
+  {
+    "id": "di_sea_bass",
+    "name": "Pan-Fried Sea Bass with Asparagus",
+    "category": "dinner",
+    "calories": 360,
+    "proteinGrams": 42,
+    "carbohydrateGrams": 8,
+    "fatGrams": 18,
+    "servings": 1,
+    "prepMinutes": 8,
+    "cookMinutes": 12,
+    "dietaryStyleTags": ["gluten_free", "dairy_free"],
+    "ingredients": [
+      { "id": "di_sba_0", "name": "Sea bass fillet",  "amount": 200, "unit": "g",  "groceryCategory": "protein" },
+      { "id": "di_sba_1", "name": "Asparagus",        "amount": 200, "unit": "g",  "groceryCategory": "produce" },
+      { "id": "di_sba_2", "name": "Cherry tomatoes",  "amount": 100, "unit": "g",  "groceryCategory": "produce" },
+      { "id": "di_sba_3", "name": "Olive oil",        "amount": 20,  "unit": "ml", "groceryCategory": "pantry"  },
+      { "id": "di_sba_4", "name": "Lemon",            "amount": 30,  "unit": "g",  "groceryCategory": "produce" },
+      { "id": "di_sba_5", "name": "Capers",           "amount": 10,  "unit": "g",  "groceryCategory": "condiments"}
+    ],
+    "instructions": [
+      "Score skin of sea bass, season well. Pan-fry skin-side down in hot oil for 4 minutes, flip for 2.",
+      "Roast asparagus and tomatoes at 200°C for 8 minutes.",
+      "Serve fish over vegetables with a squeeze of lemon and scattered capers."
+    ]
+  },
+
+  {
+    "id": "sn_rice_cakes_pb",
+    "name": "Rice Cakes with Peanut Butter",
+    "category": "snack",
+    "calories": 200,
+    "proteinGrams": 8,
+    "carbohydrateGrams": 22,
+    "fatGrams": 10,
+    "servings": 1,
+    "prepMinutes": 2,
+    "cookMinutes": 0,
+    "dietaryStyleTags": ["vegetarian", "vegan", "dairy_free", "gluten_free"],
+    "ingredients": [
+      { "id": "sn_rcpb_0", "name": "Rice cakes",     "amount": 3,  "unit": "piece", "groceryCategory": "grains" },
+      { "id": "sn_rcpb_1", "name": "Peanut butter",  "amount": 30, "unit": "g",     "groceryCategory": "pantry" }
+    ],
+    "instructions": [
+      "Spread peanut butter evenly on rice cakes and serve."
+    ]
+  },
+  {
+    "id": "sn_hard_boiled_eggs",
+    "name": "Hard Boiled Eggs",
+    "category": "snack",
+    "calories": 150,
+    "proteinGrams": 12,
+    "carbohydrateGrams": 2,
+    "fatGrams": 10,
+    "servings": 1,
+    "prepMinutes": 2,
+    "cookMinutes": 10,
+    "dietaryStyleTags": ["vegetarian", "gluten_free", "dairy_free"],
+    "ingredients": [
+      { "id": "sn_hbe_0", "name": "Eggs",      "amount": 2, "unit": "piece", "groceryCategory": "protein" },
+      { "id": "sn_hbe_1", "name": "Sea salt",  "amount": 1, "unit": "g",     "groceryCategory": "pantry"  }
+    ],
+    "instructions": [
+      "Place eggs in cold water, bring to a boil, then cook for 9 minutes.",
+      "Cool in cold water, peel, and season with a pinch of sea salt."
+    ]
+  },
+  {
+    "id": "sn_edamame",
+    "name": "Salted Edamame",
+    "category": "snack",
+    "calories": 120,
+    "proteinGrams": 12,
+    "carbohydrateGrams": 8,
+    "fatGrams": 4,
+    "servings": 1,
+    "prepMinutes": 2,
+    "cookMinutes": 5,
+    "dietaryStyleTags": ["vegetarian", "vegan", "gluten_free", "dairy_free"],
+    "ingredients": [
+      { "id": "sn_ed_0", "name": "Edamame in pods", "amount": 150, "unit": "g", "groceryCategory": "produce" },
+      { "id": "sn_ed_1", "name": "Sea salt",        "amount": 2,   "unit": "g", "groceryCategory": "pantry"  }
+    ],
+    "instructions": [
+      "Boil edamame pods in salted water for 4–5 minutes.",
+      "Drain, toss with extra sea salt, and serve warm or at room temperature."
+    ]
+  },
+  {
+    "id": "sn_yogurt_granola",
+    "name": "Greek Yogurt with Granola",
+    "category": "snack",
+    "calories": 240,
+    "proteinGrams": 16,
+    "carbohydrateGrams": 28,
+    "fatGrams": 6,
+    "servings": 1,
+    "prepMinutes": 2,
+    "cookMinutes": 0,
+    "dietaryStyleTags": ["vegetarian"],
+    "ingredients": [
+      { "id": "sn_yg_0", "name": "Greek yogurt", "amount": 180, "unit": "g", "groceryCategory": "dairy"  },
+      { "id": "sn_yg_1", "name": "Granola",      "amount": 40,  "unit": "g", "groceryCategory": "grains" },
+      { "id": "sn_yg_2", "name": "Honey",        "amount": 8,   "unit": "ml","groceryCategory": "pantry" }
+    ],
+    "instructions": [
+      "Spoon Greek yogurt into a bowl, top with granola and drizzle with honey."
+    ]
+  },
+  {
+    "id": "sn_banana_oat_balls",
+    "name": "Banana Oat Energy Balls",
+    "category": "snack",
+    "calories": 190,
+    "proteinGrams": 6,
+    "carbohydrateGrams": 30,
+    "fatGrams": 6,
+    "servings": 1,
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "dietaryStyleTags": ["vegetarian", "vegan", "dairy_free"],
+    "ingredients": [
+      { "id": "sn_bob_0", "name": "Rolled oats",   "amount": 60,  "unit": "g", "groceryCategory": "grains"  },
+      { "id": "sn_bob_1", "name": "Banana",        "amount": 100, "unit": "g", "groceryCategory": "produce" },
+      { "id": "sn_bob_2", "name": "Peanut butter", "amount": 20,  "unit": "g", "groceryCategory": "pantry"  },
+      { "id": "sn_bob_3", "name": "Dark chocolate chips","amount": 15,"unit": "g","groceryCategory": "pantry" }
+    ],
+    "instructions": [
+      "Mash banana thoroughly and mix with oats, peanut butter, and chocolate chips.",
+      "Roll into 6 balls, refrigerate for at least 30 minutes before eating."
+    ]
+  },
+  {
+    "id": "sn_turkey_cucumber",
+    "name": "Turkey & Cucumber Roll-Ups",
+    "category": "snack",
+    "calories": 130,
+    "proteinGrams": 18,
+    "carbohydrateGrams": 4,
+    "fatGrams": 5,
+    "servings": 1,
+    "prepMinutes": 5,
+    "cookMinutes": 0,
+    "dietaryStyleTags": ["gluten_free", "dairy_free"],
+    "ingredients": [
+      { "id": "sn_tcu_0", "name": "Turkey breast slices", "amount": 100, "unit": "g", "groceryCategory": "protein" },
+      { "id": "sn_tcu_1", "name": "Cucumber",             "amount": 80,  "unit": "g", "groceryCategory": "produce" },
+      { "id": "sn_tcu_2", "name": "Dijon mustard",        "amount": 8,   "unit": "g", "groceryCategory": "condiments"}
+    ],
+    "instructions": [
+      "Spread a thin layer of Dijon mustard on each turkey slice.",
+      "Place a strip of cucumber at one end and roll up tightly. Secure with a cocktail stick if needed."
+    ]
+  },
+  {
+    "id": "sn_trail_mix",
+    "name": "Trail Mix with Dark Chocolate",
+    "category": "snack",
+    "calories": 210,
+    "proteinGrams": 5,
+    "carbohydrateGrams": 20,
+    "fatGrams": 13,
+    "servings": 1,
+    "prepMinutes": 2,
+    "cookMinutes": 0,
+    "dietaryStyleTags": ["vegetarian", "vegan", "gluten_free", "dairy_free"],
+    "ingredients": [
+      { "id": "sn_tm_0", "name": "Almonds",             "amount": 20, "unit": "g", "groceryCategory": "pantry"  },
+      { "id": "sn_tm_1", "name": "Cashews",             "amount": 15, "unit": "g", "groceryCategory": "pantry"  },
+      { "id": "sn_tm_2", "name": "Dried cranberries",   "amount": 20, "unit": "g", "groceryCategory": "pantry"  },
+      { "id": "sn_tm_3", "name": "Dark chocolate chips","amount": 15, "unit": "g", "groceryCategory": "pantry"  }
+    ],
+    "instructions": [
+      "Combine all ingredients in a small bowl or portion bag.",
+      "Mix well and serve as a portable snack."
+    ]
+  }
+]
