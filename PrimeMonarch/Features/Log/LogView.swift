@@ -123,9 +123,9 @@ struct LogView: View {
                 if hasMacros {
                     PMDivider()
                     HStack(spacing: 0) {
-                        MacroCell(label: "Protein", value: totalProtein, color: .pmRingEnergy)
-                        MacroCell(label: "Carbs",   value: totalCarbs,   color: .pmRingMovement)
-                        MacroCell(label: "Fat",     value: totalFat,     color: .pmRingHydration)
+                        MacroCell(label: "Protein", value: totalProtein, target: target?.proteinTargetGrams, color: .pmRingEnergy)
+                        MacroCell(label: "Carbs",   value: totalCarbs,   target: target?.carbTargetGrams,    color: .pmRingMovement)
+                        MacroCell(label: "Fat",     value: totalFat,     target: target?.fatTargetGrams,     color: .pmRingHydration)
                     }
                 }
             }
@@ -151,13 +151,22 @@ struct LogView: View {
 private struct MacroCell: View {
     let label: String
     let value: Double
+    let target: Int?     // optional daily macro target in grams
     let color: Color
 
     var body: some View {
         VStack(spacing: 2) {
-            Text("\(Int(value))g")
-                .font(.system(size: 14, weight: .heavy))
-                .foregroundStyle(color)
+            if let t = target {
+                Text("\(Int(value)) / \(t)g")
+                    .font(.system(size: 13, weight: .heavy))
+                    .foregroundStyle(color)
+                    .minimumScaleFactor(0.8)
+                    .lineLimit(1)
+            } else {
+                Text("\(Int(value))g")
+                    .font(.system(size: 14, weight: .heavy))
+                    .foregroundStyle(color)
+            }
             Text(label)
                 .font(.pmCaption)
                 .foregroundStyle(.pmTextSecondary)

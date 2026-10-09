@@ -55,12 +55,17 @@ struct PlanView: View {
     // MARK: - Nutrition plan
 
     private var dayMealPlan: DayMealPlan {
+        let avoidTerms = (preference?.allergies ?? []) + (preference?.foodsToAvoid ?? [])
         let base = MealPlanEngine.plan(
             for: selectedNutritionDate,
-            calorieTarget: todayTarget?.calorieTarget ?? 2000,
-            mealsPerDay: preference?.mealsPerDay ?? 3,
-            dietaryStyles: preference?.dietaryStyles ?? [.noRestrictions],
-            catalog: RecipeCatalogService.shared.allRecipes
+            calorieTarget:  todayTarget?.calorieTarget      ?? 2000,
+            proteinTarget:  todayTarget?.proteinTargetGrams ?? 120,
+            carbTarget:     todayTarget?.carbTargetGrams    ?? 200,
+            fatTarget:      todayTarget?.fatTargetGrams     ?? 60,
+            mealsPerDay:    preference?.mealsPerDay         ?? 3,
+            dietaryStyles:  preference?.dietaryStyles       ?? [.noRestrictions],
+            avoidTerms:     avoidTerms,
+            catalog:        RecipeCatalogService.shared.allRecipes
         )
         guard !swappedRecipes.isEmpty else { return base }
         let adjusted = base.slots.map { slot in
@@ -74,10 +79,11 @@ struct PlanView: View {
     }
 
     private func swapAlternatives(for slot: MealSlot) -> [Recipe] {
-        let styles  = preference?.dietaryStyles ?? [.noRestrictions]
-        let current = swappedRecipes[slot.id] ?? slot.recipe
+        let styles     = preference?.dietaryStyles ?? [.noRestrictions]
+        let avoidTerms = (preference?.allergies ?? []) + (preference?.foodsToAvoid ?? [])
+        let current    = swappedRecipes[slot.id] ?? slot.recipe
         return RecipeCatalogService.shared
-            .recipes(for: slot.mealType, suitableFor: styles)
+            .recipes(for: slot.mealType, suitableFor: styles, avoiding: avoidTerms)
             .filter { $0.id != current.id }
             .sorted { abs($0.calories - current.calories) < abs($1.calories - current.calories) }
     }
@@ -331,9 +337,21 @@ struct PlanView: View {
                 .frame(height: 6)
 
                 HStack(spacing: PMSpacing.lg) {
-                    MacroLabel(label: "Protein", value: "\(Int(plan.totalProtein))g", color: .pmAccentPurple)
-                    MacroLabel(label: "Carbs",   value: "\(Int(plan.totalCarbs))g",   color: .pmRingMovement)
-                    MacroLabel(label: "Fat",     value: "\(Int(plan.totalFat))g",     color: .pmRingEnergy)
+                    MacroLabel(
+                        label: "Protein",
+                        value: "\(Int(plan.totalProtein)) / \(todayTarget?.proteinTargetGrams ?? 120)g",
+                        color: .pmAccentPurple
+                    )
+                    MacroLabel(
+                        label: "Carbs",
+                        value: "\(Int(plan.totalCarbs)) / \(todayTarget?.carbTargetGrams ?? 200)g",
+                        color: .pmRingMovement
+                    )
+                    MacroLabel(
+                        label: "Fat",
+                        value: "\(Int(plan.totalFat)) / \(todayTarget?.fatTargetGrams ?? 60)g",
+                        color: .pmRingEnergy
+                    )
                 }
             }
             .padding(PMSpacing.md)

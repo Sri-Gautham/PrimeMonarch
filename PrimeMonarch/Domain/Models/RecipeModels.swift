@@ -39,4 +39,17 @@ struct Recipe: Codable, Identifiable, Sendable {
         if styles.isEmpty || styles.contains(.noRestrictions) { return true }
         return styles.allSatisfy { dietaryStyleTags.contains($0.rawValue) }
     }
+
+    /// Returns true if any ingredient name (or the recipe name itself) contains
+    /// any of the given terms as a case-insensitive substring match.
+    /// Used to hard-exclude recipes that conflict with a user's allergies or foods-to-avoid.
+    /// Returns false when `terms` is empty (no restrictions).
+    func contains(anyOf terms: [String]) -> Bool {
+        guard !terms.isEmpty else { return false }
+        let lowerTerms   = terms.map { $0.lowercased() }
+        let searchTargets = ingredients.map { $0.name.lowercased() } + [name.lowercased()]
+        return lowerTerms.contains { term in
+            searchTargets.contains { $0.contains(term) }
+        }
+    }
 }

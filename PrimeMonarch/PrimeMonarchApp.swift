@@ -1,5 +1,6 @@
 import SwiftUI
 import SwiftData
+import Supabase
 
 @main
 struct PrimeMonarchApp: App {
@@ -22,6 +23,23 @@ struct PrimeMonarchApp: App {
             .task(id: "bootstrap", priority: .userInitiated) {
                 guard appEnvironment == nil && storageError == nil else { return }
                 initializeStorage()
+            }
+            .onOpenURL { url in
+                // Handles Supabase email-confirmation and magic-link deep links.
+                // iOS opens the app with the primemonarch:// URL after the user taps
+                // the link in their email. session(from:) extracts the tokens from the
+                // URL fragment/query, persists the Supabase session to Keychain, then
+                // checkExistingSession() updates the in-memory AuthSession so the UI
+                // transitions from "awaiting confirmation" to "signed in".
+                Task {
+                    do {
+                        try await SupabaseClient.shared.auth.session(from: url)
+                    } catch {
+                        // URL was not a valid Supabase auth callback — safe to ignore.
+                        return
+                    }
+                    await appEnvironment?.authService.checkExistingSession()
+                }
             }
         }
     }

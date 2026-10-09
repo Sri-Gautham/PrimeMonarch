@@ -10,6 +10,9 @@ final class DailyTarget {
     var createdAt: Date
 
     var calorieTarget: Int
+    var proteinTargetGrams: Int
+    var carbTargetGrams: Int
+    var fatTargetGrams: Int
     var waterTargetMilliliters: Int
     var stepTarget: Int
 
@@ -40,6 +43,9 @@ final class DailyTarget {
         self.date = Calendar.current.startOfDay(for: date)
         self.createdAt = Date()
         self.calorieTarget = 2000
+        self.proteinTargetGrams = 120
+        self.carbTargetGrams = 200
+        self.fatTargetGrams = 60
         self.waterTargetMilliliters = 2500
         self.stepTarget = 8000
         self.engineVersion = "1.0"

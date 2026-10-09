@@ -14,6 +14,9 @@ struct GoalEngineInput {
 
 struct GoalEngineOutput {
     let calorieTarget: Int
+    let proteinTargetGrams: Int
+    let carbTargetGrams: Int
+    let fatTargetGrams: Int
     let waterTargetMilliliters: Int
     let stepTarget: Int
     let workoutBurnTarget: Int
@@ -37,12 +40,21 @@ enum AdaptiveGoalEngine {
         safety: NutritionSafetyConfiguration = .default
     ) -> GoalEngineOutput {
         let (calories, calorieExplanation, confidence) = computeCalories(input: input, safety: safety)
-        let water = computeWater(weightKg: input.weightKg)
-        let steps = input.typicalDailySteps > 0 ? input.typicalDailySteps : 8000
-        let burn  = WorkoutPlans.estimatedBurnKcal(for: input.primaryGoal, intensity: .standard)
+        let water  = computeWater(weightKg: input.weightKg)
+        let steps  = input.typicalDailySteps > 0 ? input.typicalDailySteps : 8000
+        let burn   = WorkoutPlans.estimatedBurnKcal(for: input.primaryGoal, intensity: .standard)
+        let macros = MetabolicCalculationEngine.macros(
+            calories: calories,
+            weightKg: input.weightKg,
+            goal:     input.primaryGoal,
+            sex:      input.biologicalSex
+        )
 
         return GoalEngineOutput(
             calorieTarget:          calories,
+            proteinTargetGrams:     macros.protein,
+            carbTargetGrams:        macros.carbs,
+            fatTargetGrams:         macros.fat,
             waterTargetMilliliters: water,
             stepTarget:             steps,
             workoutBurnTarget:      burn,

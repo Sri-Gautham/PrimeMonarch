@@ -50,6 +50,9 @@ final class DailyTargetService {
         let target = DailyTarget(date: date)
 
         target.calorieTarget          = output.calorieTarget
+        target.proteinTargetGrams     = output.proteinTargetGrams
+        target.carbTargetGrams        = output.carbTargetGrams
+        target.fatTargetGrams         = output.fatTargetGrams
         target.calorieExplanation     = output.calorieExplanation
         target.waterTargetMilliliters = output.waterTargetMilliliters
         target.waterExplanation       = output.waterExplanation
