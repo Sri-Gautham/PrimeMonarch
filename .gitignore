@@ -1,0 +1,8 @@
+# Xcode
+*.xcodeproj.backup/
+xcuserdata/
+DerivedData/
+*.xcuserstate
+
+# macOS
+.DS_Store
